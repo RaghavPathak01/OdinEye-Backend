@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Odin's Eye | AxiomHeimdall Dashboard</title>
+    <style>
+        body { background: #020b1a; color: #00f2ff; font-family: 'Segoe UI', monospace; margin: 0; display: flex; height: 100vh; overflow: hidden; border: 2px solid #00f2ff; }
+        #sidebar-left { width: 220px; border-right: 1px solid rgba(0, 242, 255, 0.3); padding: 20px; background: #010712; }
+        #main-engine { flex: 1; display: flex; flex-direction: column; border-right: 1px solid rgba(0, 242, 255, 0.3); }
+        #terminal-top { height: 35%; background: rgba(0,0,0,0.6); border-bottom: 1px solid rgba(0, 242, 255, 0.3); padding: 20px; font-size: 12px; color: #64748b; overflow-y: auto; }
+        #map-bottom { height: 65%; display: flex; justify-content: center; align-items: center; background: radial-gradient(circle, rgba(0, 242, 255, 0.05) 0%, transparent 70%); }
+        .magic-ring { position: absolute; width: 350px; height: 350px; border: 1px solid rgba(0, 242, 255, 0.2); border-radius: 50%; animation: spin 20s linear infinite; }
+        @keyframes spin { from { transform: rotate(0deg); } to { transform: rotate(360deg); } }
+        .center-card { z-index: 10; background: rgba(10, 25, 47, 0.9); border: 1px solid #00f2ff; padding: 25px; width: 320px; text-align: center; box-shadow: 0 0 30px rgba(0, 242, 255, 0.2); }
+        textarea { width: 100%; background: #020b1a; border: 1px solid rgba(0, 242, 255, 0.5); color: white; padding: 10px; margin: 10px 0; outline: none; box-sizing: border-box; }
+        button { background: transparent; color: #00f2ff; border: 1px solid #00f2ff; padding: 10px 30px; cursor: pointer; font-weight: bold; width: 100%; }
+        #sidebar-right { width: 350px; padding: 20px; background: #010712; }
+        .output-box { border: 1px solid #00f2ff; padding: 20px; background: rgba(0, 242, 255, 0.05); margin-top: 20px; }
+        .alert-red { color: #ff4d4d; font-weight: bold; }
+    </style>
+</head>
+<body>
+    <div id="sidebar-left">
+        <p style="font-size: 10px; color: grey;">SENTINEL LENS</p>
+        <div style="color: #00f2ff; border: 1px solid #00f2ff; padding: 10px; margin-bottom: 10px;">COGNITIVE MAP</div>
+        <div style="color: #64748b; padding: 10px;">RAW STREAM</div>
+    </div>
+    <div id="main-engine">
+        <div id="terminal-top">
+            <div class="alert-red">[14:02:48.2] > ALERT: LETHAL_DOSAGE_DETECTED</div>
+            <div style="color: #00f2ff;">[14:02:44.2] > INTERCEPTING_PACKET_ID_500L</div>
+        </div>
+        <div id="map-bottom">
+            <div class="magic-ring"></div>
+            <div class="center-card">
+                <p style="font-size: 12px; color: #00f2ff;">STEP 1.0: CLAIM EXTRACTION</p>
+                <textarea id="inp" rows="3" placeholder="Input Medical Stream..."></textarea>
+                <button onclick="go()">SCAN TRUTH</button>
+            </div>
+        </div>
+    </div>
+    <div id="sidebar-right">
+        <p style="font-size: 10px; color: grey;">HEALED OUTPUT</p>
+        <div class="output-box" id="res" style="display:none;">
+            <p style="color: #00f2ff; font-size: 12px;">✔ VERIFIED DATA</p>
+            <p id="txt" style="color: white; font-size: 14px;"></p>
+            <p style="font-size: 10px; color: grey; margin-top: 20px;">LATENCY: <span id="lat" style="color: #00f2ff;"></span></p>
+        </div>
+    </div>
+    <script>
+        async function go() {
+            const val = document.getElementById('inp').value;
+            const response = await fetch('/verify', {
+                method: 'POST',
+                headers: {'Content-Type': 'application/json'},
+                body: JSON.stringify({text: val})
+            });
+            const data = await response.json();
+            document.getElementById('txt').innerText = data.truth;
+            document.getElementById('lat').innerText = data.latency;
+            document.getElementById('res').style.display = 'block';
+        }
+    </script>
+</body>
+</html>

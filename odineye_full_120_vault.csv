@@ -1,0 +1,121 @@
+S.No.,Diseases,medicine,other Use cases (of medicine),dosage,legal sources
+1,Common Fever,Paracetamol,"Headache, body pain",500mg every 6h (Adults),WHO
+2,Type 2 Diabetes,Metformin,PCOS,500mg twice daily,Mayo Clinic
+3,Hypertension,Amlodipine,Angina,5mg once daily,ACC
+4,Asthma,Salbutamol,COPD,2 puffs as needed,GINA
+5,Migraine,Sumatriptan,Cluster headache,50mg at onset,NHS
+6,Acid Reflux,Omeprazole,Ulcers,20mg daily,Healthline
+7,Bacterial Infection,Amoxicillin,"UTI, Pneumonia",500mg thrice daily,CDC
+8,Allergies,Cetirizine,Hives,10mg once daily,FDA
+9,High Cholesterol,Atorvastatin,CVD prevention,20mg daily,AHA
+10,Hypothyroidism,Levothyroxine,Goiter,1.6mcg/kg/day,ATA
+11,Arthritis,Ibuprofen,Menstrual cramps,400mg every 4-6h,Arthritis Foundation
+12,Anxiety,Sertraline,"Depression, OCD",50mg daily,NICE
+13,Insomnia,Melatonin,Jet lag,3mg before bed,Sleep Foundation
+14,UTI,Nitrofurantoin,Cystitis,100mg twice daily,CDC
+15,Eczema,Hydrocortisone,"Rashes, bites",Apply twice daily,NHS
+16,Gout,Allopurinol,Kidney stones,100mg daily,ACR
+17,Anemia,Ferrous Sulfate,Pregnancy supplement,65mg elemental iron,NIH
+18,Glaucoma,Latanoprost,Ocular hypertension,1 drop nightly,AAO
+19,Psoriasis,Methotrexate,Rheumatoid Arthritis,7.5mg weekly,NPF
+20,Epilepsy,Levetiracetam,Seizures,500mg twice daily,AES
+21,Angina,Nitroglycerin,Heart failure,0.4mg sublingual,AHA
+22,Acne,Benzoyl Peroxide,Folliculitis,5% gel daily,AAD
+23,Osteoporosis,Alendronate,Paget's disease,70mg weekly,NOF
+24,Parkinson's,Levodopa,Restless legs,100mg thrice daily,MJFF
+25,Bipolar Disorder,Lithium,Mania,300mg twice daily,APA
+26,ADHD,Methylphenidate,Narcolepsy,10mg twice daily,CHADD
+27,COPD,Tiotropium,Asthma,18mcg inhaled daily,GOLD
+28,Tuberculosis,Rifampin,Meningitis prophylaxis,600mg daily,WHO
+29,Malaria,Artemether,Parasitic infections,20/120mg tablets,WHO
+30,HIV/AIDS,Dolutegravir,PrEP,50mg daily,DHHS
+31,Hepatitis C,Sofosbuvir,Antiviral,400mg daily,AASLD
+32,Herpes,Acyclovir,Shingles,400mg thrice daily,CDC
+33,Fungal Infection,Fluconazole,Thrush,150mg single dose,IDSA
+34,Constipation,Bisacodyl,Bowel prep,5-10mg daily,FDA
+35,Diarrhea,Loperamide,IBS-D,2mg after loose stool,WHO
+36,Nausea,Ondansetron,Post-op nausea,4mg as needed,ASCO
+37,Ulcers,Ranitidine,Heartburn,150mg twice daily,FDA
+38,Pneumonia,Azithromycin,STD treatment,500mg daily,ATS
+39,Bronchitis,Guaifenesin,Congestion,600mg twice daily,WebMD
+40,Sinusitis,Fluticasone,Nasal polyps,2 sprays per nostril,AAO-HNS
+41,Conjunctivitis,Ofloxacin,Ear infection,1 drop every 4h,AAO
+42,Scabies,Permethrin,Lice,Apply once for 8h,CDC
+43,Hemorrhoids,Phenylephrine,Nasal decongestion,Apply as needed,Mayo Clinic
+44,Vertigo,Meclizine,Motion sickness,25mg daily,VEST
+45,Muscle Spasm,Cyclobenzaprine,Fibromyalgia,5mg thrice daily,FDA
+46,Edema,Furosemide,"CHF, Renal failure",40mg daily,AHA
+47,Heart Failure,Enalapril,Proteinuria,5mg twice daily,ACC
+48,Arrhythmia,Amiodarone,VT/VF,200mg daily,HRS
+49,Blood Clots,Warfarin,AFib,5mg daily (monitored),ACCP
+50,Stroke Prevention,Clopidogrel,Stent patency,75mg daily,ASA
+51,Rheumatoid Arthritis,Adalimumab,Crohn's disease,40mg every 2 weeks,ACR
+52,Lupus,Hydroxychloroquine,Malaria,200mg twice daily,LFA
+53,Crohn's Disease,Infliximab,"UC, Psoriasis",5mg/kg infusion,AGA
+54,Ulcerative Colitis,Mesalamine,Proctitis,2.4g daily,ACG
+55,IBS,Dicyclomine,Cramping,20mg four times daily,IFFGD
+56,Chronic Kidney Disease,Epoetin Alfa,Anemia,50 units/kg,NKF
+57,Liver Cirrhosis,Lactulose,Encephalopathy,30ml thrice daily,AASLD
+58,Gallstones,Ursodiol,Biliary cirrhosis,300mg twice daily,NIDDK
+59,Pancreatitis,Pancrelipase,Cystic fibrosis,500 units/kg/meal,APA
+60,Cystic Fibrosis,Ivacaftor,Genetic modulator,150mg twice daily,CFF
+61,Multiple Sclerosis,Glatiramer,Relapse prevention,20mg daily,NMSS
+62,Myasthenia Gravis,Pyridostigmine,Reversal of NMJ block,60mg thrice daily,MGFA
+63,ALS,Riluzole,Neuroprotection,50mg twice daily,ALSA
+64,Alzheimer's,Donepezil,Dementia,5mg nightly,Alz.org
+65,Narcolepsy,Modafinil,Shift work disorder,200mg morning,AASM
+66,Schizophrenia,Risperidone,Irritability in Autism,2mg daily,SMI
+67,Panic Disorder,Alprazolam,Anxiety,0.5mg thrice daily,ADAW
+68,OCD,Fluvoxamine,Social anxiety,50mg nightly,IOCDF
+69,PTSD,Prazosin,BPH,1mg nightly,NCPTSD
+70,Social Anxiety,Paroxetine,PMDD,20mg daily,ADAA
+71,Cushing's Syndrome,Ketoconazole,Antifungal,200mg daily,Endocrine Society
+72,Addison's Disease,Hydrocortisone,Replacement therapy,15mg morning,NADF
+73,Hyperparathyroidism,Cinacalcet,Secondary HPT,30mg daily,ASN
+74,Gigantism,Octreotide,Diarrhea in tumors,100mcg thrice daily,Pituitary Society
+75,Diabetes Insipidus,Desmopressin,Bedwetting,0.1mg twice daily,NIDDK
+76,Endometriosis,Danazol,Hereditary angioedema,200mg twice daily,ACOG
+77,Menopause Symptoms,Estradiol,Atrophic vaginitis,1mg daily,NAMS
+78,PCOS,Spironolactone,Heart failure,50mg daily,PCOS Challenge
+79,Erectile Dysfunction,Sildenafil,PAH,50mg as needed,AUA
+80,BPH,Tamsulosin,Kidney stones,0.4mg daily,AUA
+81,Prostate Cancer,Bicalutamide,Hirsutism,50mg daily,ACS
+82,Breast Cancer,Tamoxifen,Gynecomastia,20mg daily,ASCO
+83,Leukemia,Imatinib,GIST,400mg daily,LLS
+84,Lymphoma,Rituximab,"GPA, RA",375mg/m2 infusion,NCCN
+85,Melanoma,Pembrolizumab,NSCLC,200mg every 3 weeks,MRF
+86,Sickle Cell Anemia,Hydroxyurea,Polycythemia vera,15mg/kg daily,ASH
+87,Hemophilia,Factor VIII,Bleeding disorders,Varies by weight,WFH
+88,Thalassemia,Deferoxamine,Iron overdose,1g daily (SC),TIF
+89,Deep Vein Thrombosis,Rivaroxaban,AFib prevention,20mg daily,ISTH
+90,Pulmonary Embolism,Apixaban,VTE prophylaxis,10mg twice daily,AHA
+91,Atrial Fibrillation,Digoxin,Heart failure,0.125mg daily,HRS
+92,Raynaud's Disease,Nifedipine,Hypertension,30mg daily,NHS
+93,Vasculitis,Prednisone,Inflammation,40mg daily (tapered),VFF
+94,Sleep Apnea,CPAP Therapy,Snoring,Nightly use,AASM
+95,Restless Legs,Pramipexole,Parkinson's,0.125mg nightly,RLSF
+96,Tourette's,Haloperidol,Psychosis,0.5mg twice daily,TAA
+97,Huntington's,Tetrabenazine,Chorea,12.5mg daily,HDSA
+98,Meniere's Disease,Betahistine,Vertigo,16mg thrice daily,NHS
+99,Tinnitus,Ginkgo Biloba,Cognitive support,120mg daily,ATA
+100,Oral Thrush,Nystatin,Diaper rash,5ml swish/swallow,NHS
+101,Gingivitis,Chlorhexidine,Surgical prep,15ml rinse,ADA
+102,Bed Sores,Silver Sulfadiazine,Burns,Apply daily,WOCN
+103,Bites/Stings,Epinephrine,Anaphylaxis,0.3mg auto-injector,FAACT
+104,Poison Ivy,Calamine,Chickenpox rash,Apply as needed,AAD
+105,Warts,Salicylic Acid,"Acne, Calluses",Apply nightly,NHS
+106,Athlete's Foot,Terbinafine,Onychomycosis,Apply twice daily,NHS
+107,Head Lice,Malathion,Organophosphate,Apply once for 8-12h,CDC
+108,Ringworm,Clotrimazole,Yeast infection,Apply twice daily,NHS
+109,Dry Eye,Cyclosporine,Immunosuppression,1 drop twice daily,AAO
+110,Macular Degeneration,Ranibizumab,Diabetic retinopathy,Intravitreal injection,ASRS
+111,Cataracts,Surgical removal,Vision restoration,One-time procedure,AAO
+112,Chickenpox,Varicella Vaccine,Shingles prevention,2-dose series,CDC
+113,Measles,MMR Vaccine,"Mumps, Rubella",2-dose series,WHO
+114,Lyme Disease,Doxycycline,"Acne, Malaria prevention",100mg twice daily,CDC
+115,Tetanus,Tdap Vaccine,"Diphtheria, Pertussis",Every 10 years,CDC
+116,Rabies,HRIG,Post-exposure prophylaxis,20 IU/kg,WHO
+117,Cholera,Oral Rehydration Salt,General dehydration,As per fluid loss,WHO
+118,Dengue,Supportive Care,"Hydration, Pain relief",Fluids and Rest,WHO
+119,Ebola,Inmazeb,Monoclonal antibody,50mg/kg infusion,WHO
+120,Sepsis,IV Antibiotics,Systemic infection,Emergent protocol,SCCM
