@@ -1,7 +1,6 @@
 # 👁️ Odin's Eye | AxiomHeimdall Core v3.0
 
 **Track:** Cognify: AI & Automation (InOut Hacks '26)
-**Team Lead:** Virat Sirohi
 
 ---
 
@@ -9,20 +8,10 @@
 
 AI models (LLMs) often provide incorrect information with high confidence—a phenomenon known as **Hallucination**. In critical sectors like Healthcare, Law, and Finance, these hallucinations can lead to life-threatening or legal catastrophes.
 
-## 🚀 Our Solution
+## 🚀 Solution
 
 **Odin's Eye** is an automated security and verification layer that bridges the gap between AI and User Trust. It intercepts every claim made by an AI and cross-references it against our **Verified Knowledge Vault**. If the AI provides false information, our system "Intercepts" the response, flags the error, and provides the "Healed" ground truth.
 
----
-
-## 👥 Our Team & Roles
-
-- **Virat Sirohi (Team Lead & Security):** Designed the system architecture and developed the security logic (Logic Tracing & Hallucination Thresholds).
-- **Harshita Tyagi (AI Integration):** Integrated the data vault with the security logic and developed the core RAG (Retrieval-Augmented Generation) pipeline.
-- **Kashish (Frontend Lead):** Engineered the cyber-terminal dashboard, real-time confidence meters, and interactive UI/UX.
-- **Raghav (Data Researcher):** Mined and curated 100+ high-fidelity facts across Medical (WHO), Legal (Constitution), and Finance domains.
-
----
 
 ## 📊 How it Works (Architecture)
 
